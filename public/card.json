@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Air Force 1",
+        "image": "https://i.ibb.co/T2N7Mh5/Default-give-me-nike-shoes-white-and-background-gradient-0.jpg",
+        "category": "Air Force",
+        "price": 120
+    },
+    {
+        "id": 2,
+        "name": "Nike Dunk",
+        "image": "https://i.ibb.co/sjz6Wbf/Default-give-me-nike-shoes-blue-and-background-gradient-0.jpg",
+        "category": "Nike Dunk",
+        "price": 100
+    },
+    {
+        "id": 3,
+        "name": "Air Force 1",
+        "image": "https://i.ibb.co/KyjYYZG/abhay-siby-mathew-zmhw7426m-Bk-unsplash.jpg",
+        "category": "Air Force",
+        "price": 110
+    },
+    {
+        "id": 4,
+        "name": "Nike Dunk",
+        "image": "https://i.ibb.co/d23zp8F/felipepelaquim-6z-O5-VKogo-ZE-unsplash.jpg",
+        "category": "Nike Dunk",
+        "price": 120
+    },
+    {
+        "id": 5,
+        "name": "Nike Cortez",
+        "image": "https://i.ibb.co/3fQ20W5/luis-felipe-lins-LG88-A2-Xg-IXY-unsplash.jpg",
+        "category": "Nike Cortez",
+        "price": 80
+    },
+    {
+        "id": 6,
+        "name": "Air Force 1",
+        "image": "https://i.ibb.co/LPpF2fZ/pexels-madvortex-9214280.jpg",
+        "category": "Air Force",
+        "price": 115
+    },
+    {
+        "id": 7,
+        "name": "Nike Dunk",
+        "image": "https://i.ibb.co/5KY0zh4/sahej-brar-SY7t8068fow-unsplash.jpg",
+        "category": "Nike Dunk",
+        "price": 130
+    },
+    {
+        "id": 8,
+        "name": "Nike Cortez",
+        "image": "https://i.ibb.co/x7968Cx/taylor-smith-a-DZ5-YIued-Qg-unsplash.jpg",
+        "category": "Nike Cortez",
+        "price": 90
+    },
+    {
+        "id": 9,
+        "name": "Air Force 1",
+        "image": "https://i.ibb.co/7vHzSWV/domino-164-6w-VEHf-I-unsplash-1.jpg",
+        "category": "Air Force",
+        "price": 140
+    },
+    {
+        "id": 10,
+        "name": "Nike Dunk",
+        "image": "https://i.ibb.co/2FrWrCq/alexander-rotker-l8p1a-WZq-Hv-E-unsplash.jpg",
+        "category": "Nike Dunk",
+        "price": 110
+    }
+]
