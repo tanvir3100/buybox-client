@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className="mt-10">
                         <input type="text"
                             placeholder="Type here"
-                            className="input input-bordered w-96 rounded-full border-black"
+                            className="input input-bordered w-80 sm:w-80 md:w-96 xl:w-96 rounded-full border-black"
                         />
                         <div className="flex justify-center items-center mt-5">
                             <button className="btn btn-outline rounded-full w-36">Submit</button>
@@ -22,7 +22,8 @@ const Footer = () => {
                 <div>
                     <div className="footer p-10 text-black flex justify-between items-center">
                         <div>
-                            <h1 className="text-5xl">BuyBox</h1>
+                            <h1 className="text-3xl
+                            md:text-5xl">BuyBox</h1>
                             <p>ACME Industries Ltd.<br />Providing reliable tech since 1992</p>
                         </div>
                         <div>

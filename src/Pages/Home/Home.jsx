@@ -18,24 +18,27 @@ const Home = () => {
                         <p className='text-center mb-10'>Functional handbags made of luxurious materials to improve peoples lives in small but mighty ways.</p>
                     </Slide>
                 </div>
-                <div
-                    className='grid 
+            </Divbox>
+            <div className="hero min-h-screen bg-fixed" style={{ backgroundImage: 'url(https://i.ibb.co/Zf4BC8H/depositphotos-59288653-stock-illustration-hill-shoes-and-sneakers-seamless.webphttps://i.ibb.co/r2sv7JS/pixelcut-export.jpg)' }}>
+                <div className="bg-opacity-40"></div>
+                <Divbox>
+                    <div className='my-5
+                    grid 
                     grid-cols-2 
                     sm:grid-cols-2 
                     md:grid-cols-3 
                     lg:grid-cols-4 
                     xl:grid-cols-4 
                     2xl:grid-cols-5 
-                    '
-                >
-
-                    <Slide triggerOnce direction='up'>
-                        {
-                            collections.map(collection => <Card key={collection.id} collection={collection} />)
-                        }
-                    </Slide>
-                </div>
-            </Divbox>
+                    '>
+                        <Slide triggerOnce direction='up'>
+                            {
+                                collections.map(collection => <Card key={collection.id} collection={collection} />)
+                            }
+                        </Slide>
+                    </div>
+                </Divbox>
+            </div>
         </div>
     );
 };
