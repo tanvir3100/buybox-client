@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 
 
@@ -9,8 +10,54 @@ const Navbar = () => {
         setSearchOpen(!searchOn);
     }
     const navLinks = <>
-        <li><a>home</a></li>
-        <li><a>About</a></li>
+        <NavLink
+            to="/"
+            style={({ isActive, isPending, isTransitioning }) => {
+                return {
+                    textDecoration: isActive ? "underline" : "",
+                    color: isPending ? "red" : "black",
+                    viewTransitionName: isTransitioning ? "slide" : "",
+                };
+            }}
+        >
+            Home
+        </NavLink>
+        <NavLink
+            to="/about"
+            style={({ isActive, isPending, isTransitioning }) => {
+                return {
+                    textDecoration: isActive ? "underline" : "",
+                    color: isPending ? "red" : "black",
+                    viewTransitionName: isTransitioning ? "slide" : "",
+                };
+            }}
+        >
+            About
+        </NavLink>
+        <NavLink
+            to="/login"
+            style={({ isActive, isPending, isTransitioning }) => {
+                return {
+                    textDecoration: isActive ? "underline" : "",
+                    color: isPending ? "red" : "black",
+                    viewTransitionName: isTransitioning ? "slide" : "",
+                };
+            }}
+        >
+            SignIn
+        </NavLink>
+        <NavLink
+            to="/register"
+            style={({ isActive, isPending, isTransitioning }) => {
+                return {
+                    textDecoration: isActive ? "underline" : "",
+                    color: isPending ? "red" : "black",
+                    viewTransitionName: isTransitioning ? "slide" : "",
+                };
+            }}
+        >
+            SignUp
+        </NavLink>
     </>
     return (
         <div className="border-b-2 border-black">
@@ -25,7 +72,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="navbar-center hidden lg:flex">
-                        <ul className="menu menu-horizontal px-1">
+                        <ul className="menu menu-horizontal px-1 gap-2">
                             {navLinks}
                         </ul>
                     </div>
@@ -83,4 +130,3 @@ export default Navbar;
 
 
 
- 
