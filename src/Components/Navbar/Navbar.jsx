@@ -34,6 +34,30 @@ const Navbar = () => {
         >
             About
         </NavLink>
+        {/* <NavLink
+            to="/register"
+            style={({ isActive, isPending, isTransitioning }) => {
+                return {
+                    textDecoration: isActive ? "underline" : "",
+                    color: isPending ? "red" : "black",
+                    viewTransitionName: isTransitioning ? "slide" : "",
+                };
+            }}
+            >
+            SignUp
+        </NavLink> */}
+        <NavLink
+            to="/products"
+            style={({ isActive, isPending, isTransitioning }) => {
+                return {
+                    textDecoration: isActive ? "underline" : "",
+                    color: isPending ? "red" : "black",
+                    viewTransitionName: isTransitioning ? "slide" : "",
+                };
+            }}
+        >
+            Products
+        </NavLink>
         <NavLink
             to="/login"
             style={({ isActive, isPending, isTransitioning }) => {
@@ -44,19 +68,7 @@ const Navbar = () => {
                 };
             }}
         >
-            SignIn
-        </NavLink>
-        <NavLink
-            to="/register"
-            style={({ isActive, isPending, isTransitioning }) => {
-                return {
-                    textDecoration: isActive ? "underline" : "",
-                    color: isPending ? "red" : "black",
-                    viewTransitionName: isTransitioning ? "slide" : "",
-                };
-            }}
-        >
-            SignUp
+            Login
         </NavLink>
     </>
     return (
@@ -72,7 +84,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="navbar-center hidden lg:flex">
-                        <ul className="menu menu-horizontal px-1 gap-2">
+                        <ul className="menu menu-horizontal px-1 gap-2 text-lg">
                             {navLinks}
                         </ul>
                     </div>
